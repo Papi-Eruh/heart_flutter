@@ -9,7 +9,8 @@ environment:
 
 dependencies:
   heart:
-    path: ../heart
+    git:
+      url: https://github.com/Papi-Eruh/heart.git
   flutter:
     sdk: flutter
   http: ^1.5.0
